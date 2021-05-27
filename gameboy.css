@@ -1,0 +1,224 @@
+html{
+    background-image: url("background.jpg");
+
+}
+.main{
+    display: flex;
+    height: 100hv;
+    justify-content: center;
+}
+
+.console {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 177, 177);
+    width: 420px;
+    height: 700px;
+    margin: 20px;
+    border-radius: 20px 20px 50% 50% / 20px 20px 50px 50px;
+    box-shadow: 20px 20px 10px grey;
+}
+
+.outterscreen{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 300px;
+    width: auto;
+    margin : 30px 30px 20px 30px;
+    border-radius: 20px;
+}
+
+.screen{
+    display:flex;
+    background-color: grey;
+    height: 200px;
+    width: 290px;
+    margin: 40px 40px 0px 40px;
+}
+
+.gameboy{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+p {
+    font-family: 'Sigmar One', cursive;    
+    font-style: italic, bold;
+    font-size: 20px;
+    color:rgb(152, 180, 216);
+}
+
+.divnintendo{
+    display: flex;
+    justify-content: center;
+}
+
+.nintendo{
+    display: flex;
+    color: rgb(5, 83, 83);
+    width:auto;
+    text-align: center;
+    justify-content: center;
+    border-style: solid ;
+    border-width: 2px;
+    border-color: rgb(5, 83, 83);
+    border-radius: 10px;
+}
+
+.upperbuttons{
+    display: flex;    
+    justify-content: space-between;
+    margin: 15px 30px 50px 30px;
+}
+
+.divcross {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    width: 90px;
+    height: 90px;
+}
+
+.crossup, .crossleft, .crosscenter, .crossright, .crossdown{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    box-shadow: 5px 5px 10px grey;
+
+
+}
+
+.crossup{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.crossleft{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:  5px;
+}
+
+.crossright{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:  5px;
+}
+
+.crossdown{
+    border-bottom-left-radius:  5px;
+    border-bottom-right-radius:  5px;
+}
+
+.triangle-up, .triangle-left, .triangle-right, .triangle-down{
+    display: flex;
+    align-self: center;
+    width: 0;
+	height: 0;
+}
+.triangle-up {
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid rgb(53, 53, 53);
+}
+
+.triangle-left {
+	border-top: 10px solid transparent;
+	border-right: 20px solid rgb(53, 53, 53);
+	border-bottom: 10px solid transparent;
+}
+
+.triangle-right {
+	border-top: 10px solid transparent;
+	border-left: 20px solid rgb(53, 53, 53);
+	border-bottom: 10px solid transparent;
+}
+
+.triangle-down {
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 20px solid rgb(53, 53, 53);
+}
+
+.circle {
+    display: flex;
+    align-self: center;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 50%;
+}
+
+.buttons{
+      display: flex;
+      flex-direction: row;
+}
+
+.bbutton, .abutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: rgb(53, 53, 53);
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px grey;
+
+}
+.bbutton{
+    align-self: flex-end;
+    
+}
+.abutton{
+    align-self: flex-start;
+}
+
+.select-start-buttons, .select-start{
+    display: flex;
+    width: 150px;
+    align-self: center ;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.selectbutton, .startbutton{
+    display: flex;
+    background-color: black;
+    width: 40px;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.select, .start{
+    color:rgb(5, 83, 83);
+}
+
+.soundholes{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-direction: column;
+    align-self: flex-end;   
+    -webkit-transform: rotate(-3deg);
+}
+
+.soundholesrow{
+    display: flex;
+    flex-direction: row ;
+}
+.hole {
+    background-color: black;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    margin: 4px;
+}
+
+.hole1{
+    width: 4px;
+    height: 4px;
+    margin: 4px;
+}
